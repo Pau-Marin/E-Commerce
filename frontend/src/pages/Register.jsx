@@ -1,5 +1,7 @@
 import styled from "styled-components"
 
+import { mobile } from "../responsive"
+
 const Container = styled.div`
     width: 100vw;
     height: 100vh;
@@ -19,6 +21,7 @@ const Wrapper = styled.div`
     width: 40%;
     padding: 20px;
     background-color: white;
+    ${mobile({ width: "75%" })}
 `
 
 const Title = styled.h1`
@@ -50,6 +53,7 @@ const Button = styled.button`
     background-color: teal;
     color: white;
     cursor: pointer;
+    ${mobile({ width: "80%", margin: "0 auto" })}
 `
 
 export default function Register() {
