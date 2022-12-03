@@ -6,5 +6,5 @@ import Login from "./pages/Login"
 import Cart from "./pages/Cart"
 
 export default function App() {
-    return <Register />
+    return <ProductList />
 }
